@@ -41,12 +41,11 @@ Install-Chocolatey
 Install-FromChocolatey 'git'
 Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/aaronpowell/system-init/master/common/.gitconfig' -OutFile (Join-Path $env:USERPROFILE '.gitconfig')
 
-Install-FromChocolatey 'vscode-insiders'
+Install-FromChocolatey 'vscode'
 Install-FromChocolatey 'dotnetcore-sdk'
 Install-FromChocolatey 'microsoft-windows-terminal'
 Install-FromChocolatey 'fiddler'
 Install-FromChocolatey 'postman'
-Install-FromChocolatey 'linqpad'
 Install-FromChocolatey 'firefox'
 Install-FromChocolatey 'googlechrome'
 Install-FromChocolatey 'powershell-core'
