@@ -29,6 +29,7 @@
         {
             // Put settings here that you want to apply to all profiles.
             "fontFace": "Cascadia Code PL",
+            "fontSize": 11,
             "colorScheme": "One Half Dark"
         },
         "list":
