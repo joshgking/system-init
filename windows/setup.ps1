@@ -27,7 +27,7 @@ function Install-PowerShellModule {
 
     if (!(Get-Command -Name $ModuleName -ErrorAction SilentlyContinue)) {
         Write-Host "Installing $ModuleName"
-        Install-Module -Name $ModuleName -Scope CurrentUser -Confirm:$false
+        Install-Module -Name $ModuleName -Scope CurrentUser -Confirm:$false -Force
         Import-Module $ModuleName
 
         Invoke-Command -ScriptBlock $PostInstall
