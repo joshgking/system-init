@@ -49,6 +49,8 @@ Install-FromChocolatey 'postman'
 Install-FromChocolatey 'firefox'
 Install-FromChocolatey 'googlechrome'
 Install-FromChocolatey 'powershell-core'
+install-FromChocolatey 'flutter'
+install-FromChocolatey 'androidstudio'
 
 Install-PowerShellModule 'Posh-Git' { Add-PoshGitToProfile -AllHosts }
 Install-PowerShellModule 'oh-my-posh' { }
